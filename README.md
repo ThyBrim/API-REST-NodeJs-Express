@@ -5,7 +5,7 @@ Este es un servidor web básico construido con Node.js y Express. Proporciona un
 ## Requisitos previos
 
 Antes de comenzar, asegúrate de tener instalado:
-* [Node.js](https://nodejs.org/) (se recomienda la versión LTS)
+* Node js
 
 ## Instalación
 
