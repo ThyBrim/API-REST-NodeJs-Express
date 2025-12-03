@@ -16,11 +16,11 @@ Antes de comenzar, asegúrate de tener instalado:
 
 # Cómo ejecutar
   El proyecto tiene scripts configurados en el package.json para facilitar su ejecución
-    1.Modo de Desarrollo (Recomendado)
-      Utiliza nodemon para reiniciar automáticamente el servidor cada vez que guardas cambios en el código.Bashnpm run dev
-    Modo Estándar
-    Ejecuta el servidor utilizando Node.js directamente.Bashnode index.js
-      Una vez en ejecución, deberías ver el mensaje:Servidor corriendo exitosamente en http://localhost:3000🔗 
+  1.Modo de Desarrollo (Recomendado)
+  Utiliza nodemon para reiniciar automáticamente el servidor cada vez que guardas cambios en el código.Bashnpm run dev
+  Modo Estándar
+  Ejecuta el servidor utilizando Node.js directamente.Bashnode index.js
+  Una vez en ejecución, deberías ver el mensaje:Servidor corriendo exitosamente en http://localhost:3000🔗 
 
 # Dependencias
  * express (^5.2.1)
