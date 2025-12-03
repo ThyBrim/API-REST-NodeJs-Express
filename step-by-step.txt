@@ -1,0 +1,45 @@
+0. Abrir carpeta
+    0.1 carpeta existente
+    0.2 Carpeta nueva
+
+1.Abrir teminal
+    1.1 Hacer npm init -y
+    1.2 npm install express nodemon
+
+2. Abrir package.json
+    1.1 Crear comando dev -> nodemon index.js
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    }
+3. Crear index.js
+    3.1 Abrir index.js
+    3.2 Levantar el servidor
+
+4. Poner a correr el servidor
+    4.1 Abrir la terminal 
+    4.2 Ejecutar npm run dev
+    4.3 Abrir navegador
+        4.3.1 Abrir `localhost:3000` -> '/'
+    4.4 Definir ruta para '/'
+        4.4.1 console.log(req)
+    4.5 Definir ruta para '/saludo'
+        4.5.1 Enviar JSON
+
+5. Metodos POST
+    5.1 Definir ruta POST /user
+    5.2 Instalar Thunder client
+    5.3 Hacer peticion POST /user
+
+6. Usar BODY de la REQUEST
+    6.1 Habilitar parseo con app.use(express.json)
+    6.2 Recibir cuerpo de peticion en RECURSO /user para
+    construir un nuevo usuario
+
+7. Metodos PUT y PATCH
+    7.1 Definir recurso para actualizar usuarios
+    7.2 Utilizar query params
+
+8. Metodo DELETE
+    8.1 Utilizar query params para reconocer usuario a eliminar
+    8.2 Eliminar usuario
