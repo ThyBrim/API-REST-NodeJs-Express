@@ -7,14 +7,14 @@ Este es un servidor web básico construido con Node.js y Express. Proporciona un
 Antes de comenzar, asegúrate de tener instalado:
 * Node js
 
-## Instalación
+# Instalación
 
   1.  Descarga o navega a la carpeta del proyecto.
   2.  Abre tu terminal en el directorio del proyecto.
   3.  Instala las dependencias ejecutando:
 
 
-## Cómo ejecutar
+# Cómo ejecutar
   El proyecto tiene scripts configurados en el package.json para facilitar su ejecución
     1.Modo de Desarrollo (Recomendado)
       Utiliza nodemon para reiniciar automáticamente el servidor cada vez que guardas cambios en el código.Bashnpm run dev
@@ -22,6 +22,6 @@ Antes de comenzar, asegúrate de tener instalado:
     Ejecuta el servidor utilizando Node.js directamente.Bashnode index.js
       Una vez en ejecución, deberías ver el mensaje:Servidor corriendo exitosamente en http://localhost:3000🔗 
 
-##Dependencias
+# Dependencias
  * express (^5.2.1)
  * nodemon (^3.1.11)
